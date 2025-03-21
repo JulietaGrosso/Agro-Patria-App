@@ -1,0 +1,242 @@
+body{
+    background-color: rgba(21, 24, 29, 1);
+    font-family: "Montserrat", serif;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+header{
+    max-height: 139px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+
+    
+
+    .circuloSuperior{
+        background-color: rgba(240, 160, 36, 1);
+        height: 200px;
+        width: 100%;
+        border-radius: 50%;
+        margin: 0%;
+        padding: 0%;
+       
+}
+}
+.principal{
+    background-color: rgba(21, 24, 29, 1);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    
+
+    h1{
+        color: rgba(240, 160, 36, 1);
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 10px;
+        text-decoration: underline rgba(240, 160, 36, 1);
+        text-underline-offset: 12px;
+    }
+
+    .botones{
+        background-color: rgba(21, 24, 29, 1);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .producto{
+        background-color: rgba(30, 33, 39, 1);
+        width: 93px;
+        height: 91px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        border-color:rgba(240, 160, 36, 1) ;
+        border-radius: 5px;
+        -webkit-box-shadow: 1px 8px 5px 0px rgba(240,160,36,1);
+        -moz-box-shadow: 1px 8px 5px 0px rgba(240,160,36,1);
+        box-shadow: 1px 8px 5px 0px rgba(240,160,36,1);
+        
+    }
+    i{
+        font-size: 28px;
+        color:rgba(240, 160, 36, 1);
+    }
+    h2{
+        font-size: 14px;
+        color:rgba(240, 160, 36, 1);
+        font-weight:normal;
+    }
+    p{
+        font-size: 16px;
+        color: rgba(240, 160, 36, 1);
+        font-weight: normal;
+    }
+    h3{
+        color: rgba(220, 221, 222, 1);
+        font-size: 12px;
+        font-weight: normal;
+        padding: 8px;
+    }
+    label{
+        color: rgba(220, 221, 222, 1);
+        font-size: 12px;
+        font-weight: normal;
+        padding: 8px;
+       
+    }
+   
+    h4{
+        color: rgba(21, 24, 29, 1);
+        font-size: 13px;
+        font-weight: normal;
+    }
+    #check{
+        width: 16px;
+        height: 16px;
+        color: rgba(171, 175, 183, 0.85);
+        border-radius: 5px;
+        border-color:rgba(240, 160, 36, 1);
+        border: solid 1px;
+        padding: 8px;
+    }
+    .seguro{
+        border-color: white;
+        background-color: rgba(30, 33, 39, 1);
+        max-width: 1000px;
+        height: 28px;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        
+    }
+   .formularioCheck{
+        background-color: rgba(30, 33, 39, 1);
+        width: 196px;
+        min-height: 198px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        -webkit-box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+    }
+    .formularioOpciones{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        
+    }
+    .formulario{
+        background-color: rgba(30, 33, 39, 1);
+        width: 234px;
+        min-height: 255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        -webkit-box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 11px -12px rgba(0,0,0,0.75);
+        .label{
+            color:rgba(21, 24, 29, 1);
+        }
+    }
+    .formularioDatos{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+    }
+    input{
+        background-color: rgba(198, 199, 201, 0.85);
+        margin: 10px;
+    }
+    input ::placeholder{
+        color: rgba(21, 24, 29, 1);
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    .datos{
+        background-color: rgba(171, 175, 183, 0.85);
+        width: 208px;
+        height: 20px;
+    }
+
+    .marca{
+        background-color:rgba(21, 24, 29, 1);
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    button{
+        background-color:rgba(21, 24, 29, 1);
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        border-color:rgba(240, 160, 36, 1) ;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 8px 5px 0px rgba(240,160,36,1);
+        -moz-box-shadow: 0px 8px 5px 0px rgba(240,160,36,1);
+        box-shadow: 0px 8px 5px 0px rgba(240,160,36,1);
+    }
+
+   
+}
+
+footer {
+    max-height: 139px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    display: none;
+   justify-content: end;
+
+   
+    
+    .circuloInferior{
+        background-color: rgba(240, 160, 36, 1);
+        height: 270px;
+        width: 100%;
+        border-radius: 60%;
+        display: flex;
+        align-items:end;
+        overflow: hidden;
+        position: fixed;
+        padding: 10px;
+        
+    }
+}

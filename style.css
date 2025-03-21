@@ -1,0 +1,218 @@
+body {
+  background-color: rgb(21, 24, 29);
+  font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+header {
+  max-height: 139px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+header .circuloSuperior {
+  background-color: rgb(240, 160, 36);
+  height: 200px;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.principal {
+  background-color: rgb(21, 24, 29);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.principal h1 {
+  color: rgb(240, 160, 36);
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 10px;
+  -webkit-text-decoration: underline rgb(240, 160, 36);
+          text-decoration: underline rgb(240, 160, 36);
+  text-underline-offset: 12px;
+}
+.principal .botones {
+  background-color: rgb(21, 24, 29);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.principal .producto {
+  background-color: rgb(30, 33, 39);
+  width: 93px;
+  height: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-color: rgb(240, 160, 36);
+  border-radius: 5px;
+  box-shadow: 1px 8px 5px 0px rgb(240, 160, 36);
+}
+.principal i {
+  font-size: 28px;
+  color: rgb(240, 160, 36);
+}
+.principal h2 {
+  font-size: 14px;
+  color: rgb(240, 160, 36);
+  font-weight: normal;
+}
+.principal p {
+  font-size: 16px;
+  color: rgb(240, 160, 36);
+  font-weight: normal;
+}
+.principal h3 {
+  color: rgb(220, 221, 222);
+  font-size: 12px;
+  font-weight: normal;
+  padding: 8px;
+}
+.principal label {
+  color: rgb(220, 221, 222);
+  font-size: 12px;
+  font-weight: normal;
+  padding: 8px;
+}
+.principal h4 {
+  color: rgb(21, 24, 29);
+  font-size: 13px;
+  font-weight: normal;
+}
+.principal #check {
+  width: 16px;
+  height: 16px;
+  color: rgba(171, 175, 183, 0.85);
+  border-radius: 5px;
+  border-color: rgb(240, 160, 36);
+  border: solid 1px;
+  padding: 8px;
+}
+.principal .seguro {
+  border-color: white;
+  background-color: rgb(30, 33, 39);
+  max-width: 1000px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 11px -12px rgba(0, 0, 0, 0.75);
+}
+.principal .formularioCheck {
+  background-color: rgb(30, 33, 39);
+  width: 196px;
+  min-height: 198px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 10px 10px 11px -12px rgba(0, 0, 0, 0.75);
+}
+.principal .formularioOpciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.principal .formulario {
+  background-color: rgb(30, 33, 39);
+  width: 234px;
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 10px 10px 11px -12px rgba(0, 0, 0, 0.75);
+}
+.principal .formulario .label {
+  color: rgb(21, 24, 29);
+}
+.principal .formularioDatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.principal input {
+  background-color: rgba(198, 199, 201, 0.85);
+  margin: 10px;
+}
+.principal input ::-moz-placeholder {
+  color: rgb(21, 24, 29);
+  font-weight: lighter;
+  font-size: 13px;
+}
+.principal input ::placeholder {
+  color: rgb(21, 24, 29);
+  font-weight: lighter;
+  font-size: 13px;
+}
+.principal .datos {
+  background-color: rgba(171, 175, 183, 0.85);
+  width: 208px;
+  height: 20px;
+}
+.principal .marca {
+  background-color: rgb(21, 24, 29);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.principal button {
+  background-color: rgb(21, 24, 29);
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-color: rgb(240, 160, 36);
+  border-radius: 5px;
+  box-shadow: 0px 8px 5px 0px rgb(240, 160, 36);
+}
+
+footer {
+  max-height: 139px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  display: none;
+  justify-content: end;
+}
+footer .circuloInferior {
+  background-color: rgb(240, 160, 36);
+  height: 270px;
+  width: 100%;
+  border-radius: 60%;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+  position: fixed;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
