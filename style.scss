@@ -6,6 +6,13 @@ body{
     height: auto;
 }
 
+a {
+    text-decoration: none !important;
+    i, p {
+        text-decoration: none !important;
+    }
+}
+
 
 header{
     max-height: 139px;
@@ -71,8 +78,7 @@ header{
         -webkit-box-shadow: 1px 8px 5px 0px rgba(240,160,36,1);
         -moz-box-shadow: 1px 8px 5px 0px rgba(240,160,36,1);
         box-shadow: 1px 8px 5px 0px rgba(240,160,36,1);
-        
-    }
+        text-decoration: none;
     i{
         font-size: 28px;
         color:rgba(240, 160, 36, 1);
@@ -214,6 +220,7 @@ header{
 
    
 }
+}
 
 footer {
     max-height: 139px;
@@ -237,6 +244,5 @@ footer {
         overflow: hidden;
         position: fixed;
         padding: 10px;
-        
     }
 }
